@@ -1,0 +1,20 @@
+{% include "student/header.html" %}
+
+  <div class="jumbotron bg-success container col-sm-6"> 
+ 	<form action="registration1" method="post">
+ 		 {% csrf_token %}
+ 		<label>name</label><br>
+ 		<input type="" name="t1" class="form-control"><br>
+ 		<label>email</label><br>
+ 		<input type="" name="t2" class="form-control"><br>
+
+ 		<label>password</label><br>
+ 		<input type="" name="t3" class="form-control"><br>
+ 		<label>mobile</label><br>
+ 		<input type="" name="t4" class="form-control"><br><br>
+ 		<input type="submit" name="" class="btn btn-dark">
+ 	</form>
+ 	{{res}}
+
+ 	<a href="ShowReg">show data</a>
+ </div>

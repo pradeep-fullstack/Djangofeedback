@@ -1,0 +1,14 @@
+{% include "student/header.html" %}
+ <table class="table bg-danger">
+ 	<tr><th>name</th><th>email</th><th>mobile</th></tr>
+ {% for i in vis%}
+    <tr>
+    	<td>{{i.name}}</td>
+    	<td>{{i.email}}</td>
+    	<td>{{i.num}}</td>
+    	<td><a href="EditReg?q={{i.id}}">EditReg</td>
+        <td><a href="DeleteReg?q={{i.id}}">DeleteReg</td>
+ 
+    </tr>
+ {% endfor%}
+</table>

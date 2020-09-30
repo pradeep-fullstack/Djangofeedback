@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+   <form action="EditRegData" method="post">
+ 		 {% csrf_token %}
+ 		<label>name</label><br>
+ 		<input type="" hidden="" name="ids" class="form-control"
+ 		value="{{res.id}}"><br>
+ 		
+ 		<input type="" name="t1" class="form-control"
+ 		value="{{res.name}}"><br>
+ 		<label>email</label><br>
+ 		<input type="" name="t2" value="{{res.email}}" class="form-control"><br>
+
+ 		<label>password</label><br>
+ 		<input type="" name="t3" value="{{res.pas}}" class="form-control"><br>
+ 		<label>mobile</label><br>
+ 		<input type="" name="t4" value="{{res.num}}"class="form-control"><br><br>
+ 		<input type="submit" name="" class="btn btn-dark">
+ 	</form>
+</body> 
+</html>

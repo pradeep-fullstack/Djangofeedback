@@ -1,0 +1,24 @@
+ *  /*univarsul select*/
+    {
+      margin: 0px;
+      padding: 0px;
+    }
+    header,footer/*element or mixed selector*/
+    {
+      height:100px;
+      background-color: gray;
+    }
+    #mid
+    {
+        height: 450px;
+    }
+    .lft
+    {
+      width: 50%;
+      float: left;
+    }
+    .rit
+    {
+      width: 50%;
+      float: right;
+    }

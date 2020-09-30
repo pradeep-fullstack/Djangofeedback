@@ -1,0 +1,14 @@
+{% include "student/header.html" %}
+<div class="jumbotron bg-success container col-sm-6"> 
+ 	<form action="loginstd" method="post">
+ 		 {% csrf_token %}
+ 		<label>email</label><br>
+ 		<input type="" name="email" class="form-control"><br>
+
+ 		<label>password</label><br>
+ 		<input type="" name="password" class="form-control"><br>
+ 	
+ 		<input type="submit" name="" class="btn btn-dark">
+ 	</form>
+
+ </div>
